@@ -8,11 +8,11 @@ source.include_exts = py
 source.exclude_dirs = bin,.git,.github,.buildozer
 
 version = 0.1
-requirements = python3,kivy
+requirements = python3,kivy,sdl2
 orientation = portrait
 fullscreen = 0
 
-android.archs = arm64-v8a
+android.archs = armeabi-v7a
 android.api = 33
 android.minapi = 24
 android.ndk = 25b
